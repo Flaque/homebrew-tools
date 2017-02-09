@@ -3,7 +3,7 @@ class Thaum < Formula
   desc "A boilerplate and scaffolding command line utility."
   version "0.6.0"
 
-  if MacOs.prefer_64_bit?
+  if MacOS.prefer_64_bit?
     url "https://github.com/Flaque/thaum/releases/download/v0.6.0/thaum-macos-amd64.zip"
     sha256 "53c81f36e71fcaa0cc3f0e835068141788d67c6e24ec5f9d38bae67318f876a9"
   else
